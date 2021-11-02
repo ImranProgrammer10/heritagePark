@@ -43,7 +43,7 @@ const Home = () => {
                
 
               
-                <NavLink to='/package'
+                <NavLink to='/packages'
                   
                   className="rounded-pill fs-5 py-2 px-4 btn btn-warning"
                    
