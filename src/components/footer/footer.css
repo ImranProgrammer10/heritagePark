@@ -1,0 +1,24 @@
+.footer-link a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    line-height: 35px;
+  }
+  
+  .gradient {
+    background-color: #ffb600;
+     
+  }
+  .copyright {
+    background-color: #836d35;
+  }
+  
+  .dropdown-menu.show {
+    left: -126px;
+    padding: 11px;
+  }
+  .ul li{
+    color: black;
+
+  }
