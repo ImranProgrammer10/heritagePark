@@ -5,7 +5,7 @@
     "title": "Family Package (Whole Park Package + Lunch) for 4 persons",
      
     "price": 29.99,
-    "provider": "Hasan",
+     
     "rating": 5,
     "ratingCount": "320",
     "sellerThumb": "https://hasan-images.netlify.app/hasan.png"
@@ -16,7 +16,7 @@
     "title": "Whole Park Package with Lunch",
     
     "price": 34.79,
-    "provider": "Hasan",
+     
     "rating": 4.2,
     "ratingCount": "450",
     "sellerThumb": "https://hasan-images.netlify.app/hasan.png"
@@ -27,7 +27,7 @@
     "title": "Whole Park (All rides of park)",
      
     "price": 18.9,
-    "provider": "Hasan",
+     
     "rating": 4,
     "ratingCount": "680",
     "sellerThumb": "https://hasan-images.netlify.app/hasan.png"
@@ -38,7 +38,7 @@
     "title": "Water World Ride Ticket",
     
     "price": 48.69,
-    "provider": "Hasan",
+     
     "rating": 3.5,
     "ratingCount": "350",
     "sellerThumb": "https://hasan-images.netlify.app/hasan.png"
@@ -49,7 +49,7 @@
     "title": "From Inside the Park, After Entry 10 Dry Rides Package",
     "desc": "Big Data is now growing as an opportunity rather than a problem",
     "price": 48.69,
-    "provider": "Hasan",
+     
     "rating": 4.5,
     "ratingCount": "560",
     "sellerThumb": "https://hasan-images.netlify.app/hasan.png"
@@ -60,7 +60,7 @@
     "title": "Super Saver Package Ticket",
      
     "price": 48.69,
-    "provider": "Hasan",
+     
     "rating": 4.0,
     "ratingCount": "500",
     "sellerThumb": "https://hasan-images.netlify.app/hasan.png"
@@ -71,7 +71,7 @@
     "title": "Entry + All Rides (Water World)",
   
     "price": 42.29,
-    "provider": "Hasan",
+     
     "rating": 3.5,
     "ratingCount": "500",
     "sellerThumb": "https://hasan-images.netlify.app/hasan.png"
@@ -82,7 +82,7 @@
     "title": "Entry + 10 Rides of Dry Park Package Ticket",
     
     "price": 47.69,
-    "provider": "Hasan",
+     
     "rating": 4.5,
     "ratingCount": "500",
     "sellerThumb": "https://hasan-images.netlify.app/hasan.png"
@@ -93,7 +93,7 @@
     "title": "Entry + Two Rides (Tilt-A-Whirl & Paddle Boat)",
     
     "price": 48.69,
-    "provider": "Hasan",
+     
     "rating": 4.0,
     "ratingCount": "500",
     "sellerThumb": "https://hasan-images.netlify.app/hasan.png"

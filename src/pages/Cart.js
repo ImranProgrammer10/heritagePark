@@ -5,13 +5,13 @@ import Rating from "react-rating";
  
 import { faStar as fullStar } from "@fortawesome/free-solid-svg-icons";
 import { faStar as emptyStar } from "@fortawesome/free-regular-svg-icons";
-import { NavLink } from "react-router-dom";
-import { useHistory } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
+ 
 import useAuth from './../hooks/useAuth';
 
 const Cart = () => {
   const { selectedPackage, remove, setSelectedPackage } = useAuth();
-  const history = useHistory();
+  const navigate = useNavigate();
 
   const totalPrice = selectedPackage.reduce(
     (total, packages) => total + packages.price,
@@ -63,7 +63,7 @@ const Cart = () => {
                         <Col sm={8}>
                           <div className="d-flex">
                             <NavLink
-                              to={`/courses/${key}`}
+                              to={`/packages/${key}`}  
                               className="btn btn-warnng w-100 me-1"
                             >
                               View Details
@@ -92,7 +92,7 @@ const Cart = () => {
                   alert("This for purchasing");
                   localStorage.setItem("cart", JSON.stringify([])); 
                   setSelectedPackage([]);
-                  history.push("/home");
+                  navigate("/home");
                 }}
                 className="btn btn-warning"
               >
@@ -102,7 +102,7 @@ const Cart = () => {
           </Row>
         ) : (
           <div className="text-center my-5 py-5">
-            <h1>No Course Selected!</h1>
+            <h1>No package Selected!</h1>
           </div>
         )}
       </Container>

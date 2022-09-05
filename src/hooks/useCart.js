@@ -27,7 +27,7 @@ const useCart = () => {
   function addToCart(packages) {
     const isHave = selectedPackage.find((selected) => selected.key === packages.key);
     if (isHave) {
-      alert('course has been selected!')
+     
     }
     else {
       const newSelection = [...selectedPackage, packages];
